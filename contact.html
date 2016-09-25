@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Basic Portfolio</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 <body>
 
+        <header>
+            <h1>Tom McCrary</h1>
+
+            <div id="headerNav">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </header>    
+
+        <div id="wrapper">           
+                
+            <div id="maincontent">
+                <h2>Contact</h2>
+                <form id="contactForm">
+                    <p>Name</p>
+                    <p><input name="name" placeholder="John Smith"></p>
+                    <p>Email</p>
+                    <p><input name="email" placeholder="example@gmail.com"></p>
+                    <p>Message</p>
+                    <textarea name="message">
+                    </textarea>
+                    <button name="Submit" value="Submit">
+                </form>
+                
+            </div>
+            
+            <div id="sidebar">
+                <h3>Connect with Me</h3>
+                <a href="https://github.com/cvbtech"><img id="socialicon" src="images/github_square_black-128.png"></a>
+                <a href="https://www.linkedin.com/in/thomas-mccrary-5a07976?trk=nav_responsive_tab_profile_pic"><img id="socialicon" src="images/linkedin_square_color-128.png"></a>
+                <a href="http://stackoverflow.com/users/6786346/cvbtech"><img id="socialicon-stackoverflow" src="images/stackoverflow.png"></a>
+            </div>
+                        
+            <p>&nbsp;</p>
+            
+            <footer>
+                &copy 2016 Tom McCrary
+            </footer>            
+        </div>
+            
 </body>
 </html>
