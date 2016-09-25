@@ -1,8 +1,7 @@
 body p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    line-height: 1.5;
-    
+    line-height: 1.5; 
 }
 
 a { 
@@ -40,7 +39,7 @@ h1 {
     color: #ffffff;
     border: 1px solid #4aaaa5;
     text-align: center;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 20px;
     padding: 20px;
     width: 33.3%; 
    
@@ -61,6 +60,7 @@ li {
     float: left;
     display: inline;
     margin: 20px;
+    padding: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
 }
 
@@ -106,7 +106,7 @@ footer {
     text-align: center;
     padding:20px 0 20px 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #4aaaa5;   
+    color: #dddddd;   
     border-top: 5px solid #4aaaa5;
 }
 
@@ -141,4 +141,49 @@ h3 {
     height: 125px;
     width: 125px;
     margin: 0 10px 10px 10px;
+}
+
+#portfolioImageStyle {
+    position: relative;
+    float: inline;
+    width: 280px;
+    height: 180px;
+}
+
+.portfolioImage {
+    float: left;
+    position: relative;
+    width: 280px;
+    height: 180px;
+    margin: 10px;
+}
+
+.portfolioImageText {
+    position: absolute; 
+    top: 130px; 
+    padding: 10px;
+    text-align: center;
+    left: 0; 
+    width: 260px; 
+    color: #dddddd;
+    background: #666666;
+    font-family: 'Georgia', Times, Times New Roman, serif;    
+    font-size: 14pt;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+textarea { 
+    width: 100%;
+    height: 200px;
+}
+
+#submitButton {
+    width:100px;
+    background-color: #4aaaa5;
+    color:#dddddd;
+    border: 1px solid #4aaaa5;
 }
